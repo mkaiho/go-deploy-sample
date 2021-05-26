@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/beapp/Dockerfile
+    container_name: go-deploy-sample-be
+    tty: true
+    volumes:
+      - .:/go/src/github.com/mkaiho/go-deploy-sample
+    working_dir: /go/src/github.com/mkaiho/go-deploy-sample
