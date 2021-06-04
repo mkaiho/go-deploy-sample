@@ -10,3 +10,5 @@ services:
     volumes:
       - .:/go/src/github.com/mkaiho/go-deploy-sample
     working_dir: /go/src/github.com/mkaiho/go-deploy-sample
+    ports:
+      - 3000:3000
