@@ -16,3 +16,5 @@
 
 .ssh/
 build/
+
+docker/mysql/data
