@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	infrastructure.NewHandler().Run()
+	infrastructure.NewServer().Run()
 }
